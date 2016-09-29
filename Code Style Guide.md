@@ -4,7 +4,7 @@ We care about how our code's style is done. Plenty of open and closed-source pro
 neglect the fact that they should take care of how their code looks like,
 driving away potential contributors and team members from reviewing the code efficiently.
 
-There are a few things we should should pay attention to:
+There are a few things we should pay attention to:
 * Brace style type
 * Indent size
 
