@@ -14,4 +14,4 @@ We are using the [Allman Brace Style](https://en.wikipedia.org/wiki/Indent_style
 for all our Node.js projects.  
 That way we make sure we write a clear and lucid piece of code. The deviation from the standard Node.js coding style,
 which is [K&R](https://en.wikipedia.org/wiki/Indent_style#K.26R_style), was made in order to get a clearer, more structured
-code overview, reducing time to get used around the project.
+code overview, reducing time to get accustomed with the project.
