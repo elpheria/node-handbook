@@ -45,13 +45,13 @@ Never put more than one empty line throughout the entire source code file. It's 
 
 ## Module import/export
 
-Up to ECMAScript 2015 (ES6) we have used a `require` method. From ECMAScript 2016 (ES7) we have started experimenting with import/export. Please, prefer to use those whenever possible.
+Up to ECMAScript 2015 (ES6) we have used a `require` method. From ECMAScript 2016 (ES7) we have started experimenting with `import` and `export`. Please, prefer to use those whenever possible.
 
 ## Naming conventions
 
 Function names are named in a camelcase manner. First letter is lowercase, ie. `getAllModules`.  
 Class names are also camelcased, but the first letter is uppercase, ie. `AutomobileParts`.  
-Variables are snakecased, with all letter in lowercase, ie. `json_message`.
+Variables are snakecased, with all letters in lowercase, ie. `json_message`.
 
 Reason we chose snakecase style for variable naming is purely aesthetics. The code is prettier and much easier to read. It takes you more time to read a camelcased variables. And you have plenty of those, which does not apply to classes and functions.
 
