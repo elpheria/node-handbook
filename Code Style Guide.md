@@ -25,7 +25,8 @@ code overview, reducing time to get accustomed with the project you are working 
 
 ## Indent size
 
-An indent size of 4 whitespaces is used. We avoid using hardtabs, since their behaviour may be unexpected under different environments. An original indent size of 2, a Node.js default, must be avoided, since code clarity decreases. We use async/await nowadays, so there's no real need for short indentations, since there's no excessive code nesting. If there is, then your problem might be elsewhere.
+An indent size of 4 whitespaces is used. We avoid using hardtabs, since their behaviour may be unexpected under different environments.  
+An original indent size of 2, a Node.js default, must be avoided, since code clarity decreases. We use async/await nowadays, so there's no real need for short indentations, since there's no excessive code nesting. If there is, then your problem might be elsewhere.
 
 ## Quotes
 
@@ -50,7 +51,7 @@ Up to ECMAScript 2015 (ES6) we have used a `require` method. From ECMAScript 201
 ## Naming conventions
 
 Function names are named in a camelcase manner. First letter is lowercase, ie. `getAllModules`.  
-Class names are also camelcased, but the first letter is uppercase, ie. `AutomobileParts`.  
+Class names are Pascal case, ie. `AutomobileParts`.  
 Variables are snakecased, with all letters in lowercase, ie. `json_message`.
 
 Reason we chose snakecase style for variable naming is purely aesthetics. The code is prettier and much easier to read. It takes you more time to read a camelcased variables. And you have plenty of those, which does not apply to classes and functions.
