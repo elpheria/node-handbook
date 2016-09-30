@@ -13,6 +13,7 @@ These are some of the things we pay attention to:
 * Line feeds
 * Module import/export
 * Naming conventions
+* Code linting
 
 ## Brace style type
 
@@ -48,8 +49,14 @@ Up to ECMAScript 2015 (ES6) we have used a `require` method. From ECMAScript 201
 
 ## Naming conventions
 
-Function names are named in a camelcase manner. First letter is lowercase, ie. `getAllModules`.
-Class names are also camelcased, but the first letter is uppercase, ie. `AutomobileParts`.
+Function names are named in a camelcase manner. First letter is lowercase, ie. `getAllModules`.  
+Class names are also camelcased, but the first letter is uppercase, ie. `AutomobileParts`.  
 Variables are snakecased, with all letter in lowercase, ie. `json_message`.
 
 Reason we chose snakecase style for variable naming is purely aesthetics. The code is prettier and much easier to read. It takes you more time to read a camelcased variables. And you have plenty of those, which does not apply to classes and functions.
+
+## Code linting
+
+For code formating we are using `eslint`. Each project has its code automatically beautified once the test, build or install is done.  
+You can optionally override our settings using in-line `eslint` comments, but that's not recommended. If there's a change in settings that should be considered, please make a PR.  
+You can grab the configuration [here](https://github.com/qaap/dotfiles/blob/master/.eslintrc.json).
