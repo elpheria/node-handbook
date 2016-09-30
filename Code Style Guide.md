@@ -25,7 +25,7 @@ code overview, reducing time to get accustomed with the project you are working 
 
 ## Indent size
 
-An indent size of 4 whitespaces is used. We avoid using hardtabs, since their behaviour may be unexpected under different environments. An original indent size of 2, a Node.js default, must be avoided, since code clarity decreases. We use async/await nowadays, so there's no real needs for short indentations, since there's not a huge number of indentations. If there is, then your problem might be elsewhere.
+An indent size of 4 whitespaces is used. We avoid using hardtabs, since their behaviour may be unexpected under different environments. An original indent size of 2, a Node.js default, must be avoided, since code clarity decreases. We use async/await nowadays, so there's no real need for short indentations, since there's no excessive code nesting. If there is, then your problem might be elsewhere.
 
 ## Quotes
 
