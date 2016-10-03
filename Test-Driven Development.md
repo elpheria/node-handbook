@@ -31,7 +31,8 @@ More of that in the next subsection.
 
 Integration tests are a separate type of tests where we include one or more external application that is a
 dependency to the currently developed application.  
-Before starting those type of tests, we **must** set an environment variable called ```NODE_ENV``` to a value ```integration```.
+Before starting those type of tests, we **must** set an environment variable called ```NODE_ENV``` to a value ```integration```.  
+There should also exist a convenience npm script which could then be used with ```npm run-script test-integration```.
 
 Once we have that, we can insert a portion of code at the beginning of each test that is meant to be used for integrations like so:
 ```js
