@@ -4,6 +4,7 @@ When starting to develop backend applications, there are certain things we shoul
 * Node.js versions
 * Boilerplate reuse
 * 3rd party libraries
+* Test-Driven Development
 
 ## Starting from scratch
 
