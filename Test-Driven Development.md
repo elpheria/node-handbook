@@ -2,7 +2,7 @@
 
 *A work-in-progress article*
 
-Mocha is our *de-facto* choice of testing framework when it comes to testing our applications.
+[Mocha](https://mochajs.org) is our *de-facto* choice of a testing framework when it comes to testing our applications.
 
 ## Environment-dependent testing
 
@@ -13,7 +13,7 @@ There are a few test environments we should commence:
 
 ### Unit tests
 
-Unit tests are the ones we use to test libraries when developing with TDD/BDD.  
+Unit tests are the ones we use to test libraries when developing with [TDD](https://en.wikipedia.org/wiki/Test-driven_development)/[BDD](https://en.wikipedia.org/wiki/Behavior-driven_development).  
 Each library should be throughly tested for correct and incorrect behaviour.
 
 ### Isolated tests
