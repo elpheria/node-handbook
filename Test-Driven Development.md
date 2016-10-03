@@ -2,7 +2,8 @@
 
 *A work-in-progress article*
 
-[Mocha](https://mochajs.org) is our *de-facto* choice of a testing framework when it comes to testing our applications.
+[Mocha](https://mochajs.org) is our *de-facto* choice of a testing framework when it comes to testing our applications.  
+We also chose [Chai](http://chaijs.com) for assertions.
 
 ## Environment-dependent testing
 
