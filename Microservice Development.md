@@ -18,3 +18,9 @@ are meant to be fetched from our [contrib](https://github.com/qaap/contrib) proj
 Once the application is *kickstarted*, we could add those tools via git submodule with the following command:
 
 ```git submodule add https://github.com/qaap/contrib tools```
+
+If there's a need for you to update a submodule while developing your microservice,
+make sure you cd into the ```tools``` directory, add and commit those changes there,
+go back to root directory, commit a Subproject change there and do a push to contrib like this:
+
+```git push --recurse-submodules=on-demand```
