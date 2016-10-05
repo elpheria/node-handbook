@@ -1,5 +1,7 @@
 # Code Style Guide
 
+*A work-in-progress article*
+
 We care about how our code's style is done. Plenty of open and closed-source projects
 neglect the fact that they should take care of how their code looks like,
 driving away potential contributors and team members from reviewing the code efficiently.
