@@ -26,3 +26,7 @@ make sure you cd into the ```tools``` directory, add and commit those changes th
 go back to root directory, commit a Subproject change there and do a push to contrib like this:
 
 ```git push --recurse-submodules=on-demand```
+
+We can also sync a submodule with
+
+```git submodule update --remote --rebase```
