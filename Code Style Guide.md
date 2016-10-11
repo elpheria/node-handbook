@@ -25,6 +25,17 @@ That way we make sure we write a clear and lucid piece of code. The deviation fr
 which is [K&R](https://en.wikipedia.org/wiki/Indent_style#K.26R_style), was made in order to get a clearer, more structured
 code overview, reducing time to get accustomed with the project you are working on.
 
+One-liner functions and try/catch blocks are allowed and sometimes recommended.  
+If there's only one line of execution in any of try or catch blocks,
+we should write those blocks in one line, reducing clutter and unneded newlines.
+It is also recommended to split those try/catch one-liner blocks with a single newline.  
+In example:
+```js
+try { server.event("foo") }
+
+catch (error) { throw error }
+```
+
 ## Indent size
 
 An indent size of 4 whitespaces is used. We avoid using hardtabs, since their behaviour may be unexpected under different environments.  
