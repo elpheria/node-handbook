@@ -21,6 +21,8 @@ Once the application is *kickstarted*, we could add those tools via git submodul
 
 ```git submodule add https://github.com/qaap/contrib tools```
 
+You can then add the `tools` directory to your project with `git add tools .gitmodules`.
+
 If there's a need for you to update a submodule while developing your microservice,
 make sure you cd into the ```tools``` directory, add and commit those changes there,
 go back to root directory, commit a Subproject change there and do a push to contrib like this:
